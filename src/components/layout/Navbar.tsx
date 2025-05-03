@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ShoppingBag, Menu, X } from 'lucide-react';
 
 export function Navbar() {
@@ -11,7 +11,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 font-semibold text-xl">
             <a href="/" className="flex items-center">
-              ARTISAN
+              BANANA threads
             </a>
           </div>
           

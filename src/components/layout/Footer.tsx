@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">ARTISAN</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">BANANA threads</h3>
             <p className="mb-4">
               Premium quality t-shirts for the modern individual. Designed with care, made to last.
             </p>
@@ -61,14 +61,14 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />
-                <span>hello@artisan.com</span>
+                <span>hello@banana.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; 2025 ARTISAN. All rights reserved.</p>
+          <p>&copy; 2025 BANANA. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="hover:text-white">Privacy Policy</a>
             <a href="#" className="hover:text-white">Terms of Service</a>

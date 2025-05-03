@@ -1,4 +1,5 @@
-import React from 'react';
+
+import { useNavigate } from 'react-router-dom';
 import { Product } from '../../types';
 
 interface ProductCardProps {
@@ -7,10 +8,16 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, onClick }: ProductCardProps) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/product/${product.id}`);
+  };
+
   return (
     <div 
-      className="group relative bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
-      onClick={() => onClick(product)}
+      className="group relative bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 cursor-pointer"
+      onClick={handleClick}
     >
       <div className="aspect-square w-full overflow-hidden">
         <img
